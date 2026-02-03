@@ -1,0 +1,12 @@
+/* 폰트 불러오기 : 외부 폰트 임포트 (반드시 최상단)*/
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css");
+@import url("https://fonts.googleapis.com/css2?family=Sigmar&display=swap");
+
+/* 테일윈드 엔진 로드 */
+@import "tailwindcss";
+
+@theme {
+  /* 테일윈드 v4 방식의 테마 및 커스텀 */
+  --font-sans: "Pretendard", ui-sans-serif, system-ui, sans-serif;
+  --font-sigmar: "Sigmar", cursive;
+}

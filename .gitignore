@@ -1,0 +1,42 @@
+# 로그들
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 의존성 폴더 무시
+node_modules
+*.local
+.pnpm-store
+
+# 빌드 결과물 무시
+dist
+dist-ssr
+
+# 디렉토리 및 파일 편집자
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 로컬 환경 변수 무시
+.env*
+
+# Biome (ESLint/Prettier 대용) 관련
+.biome_cache/
+
+# 테스트 결과 및 커버리지
+coverage/
+test-results/
+
+# 임시 파일 및 캐시
+.cache/
+.turbo/

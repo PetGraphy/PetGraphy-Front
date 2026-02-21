@@ -1,9 +1,10 @@
 import "./App.css";
+import OnBoarding from "./pages/OnBoarding";
 
 function App() {
   return (
-    <div className="bg-white font-sigmar font-bold text-2xl">
-      PetGraphy Project
+    <div className="w-full whitespace-pre-line">
+      <OnBoarding />
     </div>
   );
 }

@@ -4,6 +4,7 @@
 
 /* 테일윈드 엔진 로드 */
 @import "tailwindcss";
+@plugin "tailwindcss-animate";
 
 @theme {
   /* 테일윈드 v4 방식의 테마 및 커스텀 */
